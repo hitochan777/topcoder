@@ -30,10 +30,3 @@ class BadNeighbors{
 			return $max;
 		}
 };
-
-int main(){
-	BadNeighbors bn;
-	vector<int> donations = {10,3,2,5,7,8};
-	cout<<bn.maxDonations(donations)<<endl;
-	return 0;
-}
